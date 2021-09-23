@@ -1,0 +1,79 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Company.css">
+
+</head>
+<body>
+
+<div class="main">
+
+	<header class="header">
+	<div class="menu">
+	<ul>
+	<li> <a href="Home.html"> Home <a/> </li>
+	<li> <a href="Product and Services.html"> Products & Services </a> </li>
+	<li> <a href="Photo and Video Gallery.html"> Photo & Video Gallery </a> </li>
+	<li class="active"> <a href="Register.html"> Register </a> </li>
+	<li> <a href="About Us.html"> About Us </a> </li>
+	<li> <a href="Contact Us.html"> Contact Us </a> </li>
+	</ul>
+	</div>
+	</header>
+	<section class="s1">
+	<fieldset>
+<form name="Register" action="Register.php" method="get">
+<legend align="center"> <font size="20"> <b> User Registration </b> </font> </legend><br>
+<table>
+<tr>
+<td><label>User Name:</label></td>
+<td><input type="Name" name="name" id="name" required> <br> </td>
+</tr>
+<tr>
+<td><label>Birthday:</label></td>
+<td><input type="date" name="bd" id="bd" required> <br> </td>
+</tr>
+<tr>
+<td><label>Address:</label></td>
+<td><textarea name="address" id="address" rows="4" cols="20"> </textarea> <br> </td>
+</tr>
+<tr>
+<td><label>Email:</label></td>
+<td><input type="email" name="mail" id="mail" required> <br> </td>
+</tr>
+<tr>
+<td><label>Gender:</label></td>
+<td>
+<input type="radio" name="gender" id="male" value="a"> Male
+<input type="radio" name="gender" id="female" value="b"> Female <br>
+</td>
+</tr>
+<tr>
+<td><label>Country:</label></td>
+<td>
+<select name="country" id="country">
+	<option value="">-select-<option>
+	<option value="1"> Sri Lanka<option>
+	<option value="2">India<option>
+	<option value="3">China<option>
+	<option value="4">Japan<option>
+</select> <br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="Submit" name="submit">
+<input type="Reset" name="reset">
+</td>
+</tr>
+</table>
+</form>	
+</fieldset>
+	</section>
+	<footer class="footer"></footer>
+
+</div>
+
+
+</body>
+</html>
